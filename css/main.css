@@ -1,0 +1,111 @@
+main{
+    width: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+main>section{
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+/* PRESENTATION */
+
+#presentation{
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+}
+
+.section-child{
+    gap: 5rem;
+    width: 80%;
+}
+
+#presentation>div>div{
+    flex: 1;
+}
+
+#presentation-description{
+    gap: 2rem;
+    color: white;
+}
+
+h1{
+    width: fit-content;
+    font-size: 4rem;
+    color: #D64933;
+    text-shadow: 3px 2px 2px #962311;
+}
+
+#description-profession{
+    width: fit-content;
+    font-weight: bold;
+}
+
+#description-text{
+    font-size: smaller;
+    max-width: 60%;
+}
+
+#description-buttons{
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+
+.presentation-buttons{
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.presentation-buttons:hover{
+    cursor: pointer;
+}
+
+#button-cv{
+    background-color: #D64933;
+    color: white;
+
+    box-shadow: 3px 3px 2px #962311;
+}
+
+#photo{
+    width: 23rem;
+    height: 23rem;
+    background-color: rgb(233, 233, 233);
+    align-items: center;
+    justify-content: center;
+}
+
+/* ABOUT ME */
+
+h2{
+    font-size: 3rem;
+}
+
+#about-me-div>div{
+    flex: 1;
+}
+
+#father-sub-about-me{
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+#father-sub-about-me>div{
+    gap: 2rem;
+}
+
+.sub-about-me{
+    background-color: #D64933;
+    color: white;
+    border: 3px solid #962311;
+    border-radius: 0.75rem;
+    height: 15rem;
+    width: 15rem;
+    
+}
