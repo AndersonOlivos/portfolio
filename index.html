@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <main class="flex-column">
@@ -43,59 +44,161 @@
 
         <section id="about-me" class="flex-column all-center">
             <div class="flex-column all-center section-child">
-                <div>
-                    <h2 class="text-titles">Sobre mí</h2>
+                <div id="section-about-me-title">
+                    <h2 class="text-titles">SOBRE MÍ</h2>
                 </div>
                 <div id="about-me-div" class="flex-row">
-                    <div class="flex-column all-center">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ex nisi corrupti voluptate magnam atque aliquid sapiente, laudantium eligendi esse asperiores eum tenetur porro enim dolore libero, minima odio reprehenderit.</p>
+                    <div id="about-me-description" class="flex-column all-center">
+                        <p class="text-body">Me llamo Anderson, aunque todos me dicen Ander. A parte de dedicarme a la programación y el desarrollo, soy un aficionado del pádel y en general a cualquier deporte. Me encanta estar siempre activo realizando actividades entretenidas y explorar varios campos.</p>
+                        <p class="text-body">Hablando un poco más sobre el mundo de la informática, me apasiona el aprendizaje constante y el crecimiento personal.</p>
+                        <p class="text-body"></p>
                     </div>
-                    <div id="father-sub-about-me" class="flex-column">
-                        <div class="flex-row">
-                            <div class="sub-about-me flex-column all-center">
-                                <h3 class="text-titles">SOFT SKILLS</h3>
-                                <p>hoaksdfasda</p>
-                            </div>
-                            <div class="sub-about-me flex-column all-center">
+                    <div id="father-sub-about-me" class="flex-row">
+
+                        <!--SOFT SKILLS AND HARD SKILLS-->
+
+                        <div class="flex-column">
+                            <div class="sub-about-me flex-column">
                                 <h3 class="text-titles">HARD SKILLS</h3>
-                                <p>hoaksdfasda</p>
+                                <div id="container-hard-skills" class="text-body flex-column">
+                                    <div class="flex-row">
+                                        <div class="flex-column all-center">HTML <img class="hard-skills-icons" src="images/icons/html.png" alt=""></div>
+                                        <div class="flex-column all-center">CSS <img class="hard-skills-icons" src="images/icons/css.png" alt=""></div>
+                                        <div class="flex-column all-center">JavaScript <img class="hard-skills-icons" src="images/icons/javascript.png" alt=""></div>
+                                    </div>
+                                    <div class="flex-row">
+                                        <div class="flex-column all-center">PHP <img class="hard-skills-icons" src="images/icons/php.png" alt=""></div>
+                                        <div class="flex-column all-center">MySql <img class="hard-skills-icons" src="images/icons/mysql.png" alt=""></div>
+                                        <div class="flex-column all-center">Python <img class="hard-skills-icons" src="images/icons/python.png" alt=""></div>    
+                                    </div>
+                                </div>
                             </div>
+
+                            <div class="sub-about-me flex-column">
+                                <h3 class="text-titles">SOFT SKILLS</h3>
+                                <ul class="text-body">
+                                    <li>Creatividad</li>
+                                    <li>Sociabilidad</li>
+                                    <li>Competitividad</li>
+                                    <li>Positivismo</li>
+                                </ul>
+                            </div>
+
                         </div>
-                        <div class="flex-row">
-                            <div class="sub-about-me flex-column all-center">
+
+
+                        <!--IDIOMAS AND INTERESES-->
+
+
+                        <div class="flex-column">
+                            <div class="sub-about-me flex-column">
                                 <h3 class="text-titles">IDIOMAS</h3>
-                                <p>hoaksdfasda</p>
+                                <ul class="text-body">
+                                    <li class="flex-row all-center">Español (nativo) <img class="idiomas-icons" src="images/icons/spanish.png" alt=""></li>
+                                    <li class="flex-row all-center">Inglés (B2 Cambridge) <img class="idiomas-icons" src="images/icons/english.png" alt=""></li>
+                                </ul>
                             </div>
                             <div class="sub-about-me flex-column all-center">
                                 <h3 class="text-titles">INTERESES</h3>
-                                <ul>
+                                <ul class="text-body">
+                                    <li>Analisis de Datos</li>
+                                    <li>Automatizacion</li>
                                     <li>Deporte</li>
-                                    <li>Filosofía, psicología y sociología</li>
-                                    <li>Fotografía</li>
-                                    <li>Diseño</li>
-                                    <li>Análisis de Datos</li>
+                                    <li>IA</li>
                                 </ul>
                             </div>
-                        </div>
-                        
+                        </div>                        
                     </div>
                 </div>
             </div>    
         </section>
 
 
-        <section id="experience" class="flex-column">
+        <!--EXPERIENCE AND STUDIES-->
 
+        <section id="experience-studies" class="flex-column all-center">
+            <div class="flex-column all-center section-child">
+                <h2 class="text-titles">MI RECORRIDO</h2>
+                <div id="container-experience-studies" class="flex-row">
+                    <div class="flex-column sub-experience-studies">
+                        <h3 class="text-titles">EXPERIENCIA</h3>
+                        <div id="container-experience" class="flex-column text-body">
+                            <div class="exp-stu flex-column">
+                                <p class="exp-stu-job">Atencion al Cliente</p>
+                                <p>Scalpers Fashion</p>
+                                <p>2023/2024</p>
+                            </div>
+                            <div class="exp-stu flex-column all-center">
+                                <p class="exp-stu-job">Practica Soporte Tecnico</p>
+                                <p>Scalpers Fashion</p>
+                                <p>2023/2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-column sub-experience-studies">
+                        <h3 class="text-titles">ESTUDIOS</h3>
+                        <div id="container-studies">
+                            <div class="exp-stu flex-column all-center text-body">
+                                <p class="exp-stu-job">Desarrollo de Aplicaciones Web</p>
+                                <p>SAFA Ntra. Senora de los Reyes</p>
+                                <p>En curso</p>
+                            </div>
+                            <div class="exp-stu flex-column all-center">
+                                <p class="exp-stu-job">Administracion de Sistemas informátcos en Red</p>
+                                <p>IES Antonio Machado</p>
+                                <p>2022-2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="studies" class="flex-column">
 
+        <!--PROJECTS-->
+
+
+        <section id="projects" class="flex-column all-center">
+            <div class="flex-column all-center section-child">
+                <h2 class="text-titles">ALGUNO DE MIS PROYECTOS</h2>
+
+            </div>
         </section>
-        <section id="projects" class="flex-column">
-            <h3>Mis proyectos</h3>
-        </section>
-        <section class="flex-column" id="contact-me">
-            <h3>Contactemos!</h3>
+
+        <!--CONTACT-ME-->
+
+        <section id="contact-me" class="flex-column all-center">
+            <div class="flex-column all-center section-child">
+                <div class="flex-column all-center">
+                    <p class="text-body contact-me-questions">¿Quieres que realicemos algun proyecto en conjunto?</p>
+                    <p class="text-body contact-me-questions">¿Te interesa mi perfil para un puesto de trabajo?</p>
+                    <p class="text-body contact-me-questions">¿Me quieres mandar algun saludo?</p>
+                
+                    <h2 id="contact-me-h2" class="text-titles">¡CONTACTA CONMIGO!</h2>
+                    
+                    <form action="post" class="flex-column">
+                        <p class="text-titles">Introduce tu correo y te enviaré un mensaje para ponernos en contacto</p>
+                        <div class="flex-row all-center">
+                            <input id="form-mail" class="text-body" type="text" placeholder="Tu correo">
+                            <button id="form-submit" class="text-body" type="submit">CONTACTAR</button>        
+                        </div>
+                    </form>
+                </div>
+            </div>        
         </section>
     </main>
+
+        <!--FOOTER-->
+
+
+    <footer class="flex-column all-center">
+        <div id="footer-redes" class="flex-row">
+            <a target="_blank" href="https://github.com/AndersonOlivos"><img src="images/icons/github.png" alt="github"></a>
+            <a target="_blank" href="www.linkedin.com/in/andersonolivos"><img src="images/icons/linkedin.png" alt="linkedin"></a>
+            <a target="_blank" href="https://www.instagram.com/anderolivos/"><img src="images/icons/instagram.png" alt="instagram"></a>
+        </div>
+        <div>
+            <p>© 2024 Anderson Olivos Gamarra</p>
+        </div>
+    </footer>
 </body>
 </html>
